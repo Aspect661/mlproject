@@ -20,6 +20,6 @@ setup(
     version = "0.0.1",
     author = "Aspect",
     author_email = "tuhindas01.official@gmail.com",
-    pacakages = find_packages(),
+    packages = find_packages(),
     install_requires = get_requirements('requirements.txt')
 )
