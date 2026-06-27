@@ -1,0 +1,16 @@
+[ 2026-06-27 15:04:18,140 ] 33 root INFO - Initiating data ingestion
+[ 2026-06-27 15:04:18,143 ] 37 root INFO - Read the data as dataframe
+[ 2026-06-27 15:04:18,146 ] 42 root INFO - Train-test split initiated
+[ 2026-06-27 15:04:18,150 ] 47 root INFO - Data ingestion completed
+[ 2026-06-27 15:04:18,150 ] 76 root INFO - Initiating data transformation
+[ 2026-06-27 15:04:18,151 ] 82 root INFO - Read the train and test data as dataframe
+[ 2026-06-27 15:04:18,152 ] 84 root INFO - Obtaining the data transformer object
+[ 2026-06-27 15:04:18,152 ] 47 root INFO - Numerical columns scaling initiated
+[ 2026-06-27 15:04:18,152 ] 57 root INFO - Categorical columns encoding initiated
+[ 2026-06-27 15:04:18,152 ] 59 root INFO - Categorical columns ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2026-06-27 15:04:18,152 ] 60 root INFO - Numerical columns ['writing_score', 'reading_score']
+[ 2026-06-27 15:04:18,152 ] 69 root INFO - Data transformation pipeline initiated
+[ 2026-06-27 15:04:18,152 ] 96 root INFO - Transforming the train and test dataframe
+[ 2026-06-27 15:04:18,162 ] 103 root INFO - Saving the preprocessor object
+[ 2026-06-27 15:04:18,163 ] 33 root INFO - Initiating model trainer
+[ 2026-06-27 15:04:50,011 ] 104 root INFO - Best model found Linear Regression
