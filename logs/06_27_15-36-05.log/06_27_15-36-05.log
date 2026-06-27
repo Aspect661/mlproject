@@ -1,0 +1,4 @@
+[ 2026-06-27 15:36:06,085 ] 97 werkzeug WARNING -  * Debugger is active!
+[ 2026-06-27 15:36:06,093 ] 97 werkzeug INFO -  * Debugger PIN: 139-085-816
+[ 2026-06-27 15:36:14,050 ] 97 werkzeug INFO - 127.0.0.1 - - [27/Jun/2026 15:36:14] "POST /predictdata HTTP/1.1" 200 -
+[ 2026-06-27 15:36:24,143 ] 97 werkzeug INFO - 127.0.0.1 - - [27/Jun/2026 15:36:24] "POST /predictdata HTTP/1.1" 200 -

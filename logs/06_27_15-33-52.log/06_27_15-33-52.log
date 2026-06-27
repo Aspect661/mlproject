@@ -1,0 +1,12 @@
+[ 2026-06-27 15:33:52,614 ] 97 werkzeug WARNING -  * Debugger is active!
+[ 2026-06-27 15:33:52,625 ] 97 werkzeug INFO -  * Debugger PIN: 139-085-816
+[ 2026-06-27 15:34:52,778 ] 97 werkzeug INFO - 127.0.0.1 - - [27/Jun/2026 15:34:52] "GET / HTTP/1.1" 200 -
+[ 2026-06-27 15:34:52,845 ] 97 werkzeug INFO - 127.0.0.1 - - [27/Jun/2026 15:34:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-06-27 15:35:02,070 ] 97 werkzeug INFO - 127.0.0.1 - - [27/Jun/2026 15:35:02] "GET / HTTP/1.1" 200 -
+[ 2026-06-27 15:35:19,527 ] 97 werkzeug INFO - 127.0.0.1 - - [27/Jun/2026 15:35:19] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-06-27 15:35:37,144 ] 97 werkzeug INFO - 127.0.0.1 - - [27/Jun/2026 15:35:37] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2026-06-27 15:35:37,163 ] 97 werkzeug INFO - 127.0.0.1 - - [27/Jun/2026 15:35:37] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2026-06-27 15:35:37,165 ] 97 werkzeug INFO - 127.0.0.1 - - [27/Jun/2026 15:35:37] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2026-06-27 15:35:37,170 ] 97 werkzeug INFO - 127.0.0.1 - - [27/Jun/2026 15:35:37] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=xwwsRVsiSVA8YJ9WKvVb HTTP/1.1" 200 -
+[ 2026-06-27 15:35:37,186 ] 97 werkzeug INFO - 127.0.0.1 - - [27/Jun/2026 15:35:37] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2026-06-27 15:36:04,528 ] 97 werkzeug INFO -  * Detected change in '/Users/aspect/Library/Mobile Documents/com~apple~CloudDocs/Udemy MLOps Course/MLOps/mlproject/src/pipeline/predict_pipeline.py', reloading
